@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering Portfolio | LOOMTRIC PVT LTD</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <div class="logo"><a href="index.html" aria-label="LOOMTRIC home"><img src="images/LOGO1.1.png" alt="LOOMTRIC" class="logo-image"></a></div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="products/index.html">Products Store</a></li>
+                    <li><a href="contact.html" class="btn-nav">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Engineering Portfolio & Capabilities</h1>
+            <p>A technical showcase of embedded systems, circuit architectures, and custom hardware designs.</p>
+        </div>
+    </section>
+
+    <!-- NDA Notice Banner -->
+    <section style="background-color: var(--bg-light); padding: 30px 0; border-bottom: 1px solid #e2e8f0;">
+        <div class="container" style="max-width: 900px; text-align: center;">
+            <p style="font-size: 0.95krem; color: var(--text-light);">
+                <i class="fa-solid fa-lock text-emerald-500 mr-2"></i> <strong>Note on Confidentiality:</strong> Due to strict Non-Disclosure Agreements (NDAs) with our clients, specific product branding and proprietary schematics are withheld. The following technical highlights showcase our engineering scope and core architectures.
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Grid Section -->
+    <section class="section-block">
+        <div class="container" style="max-width: 1100px;">
+            <div class="section-title">
+                <h2>Featured Engineering Case Studies</h2>
+                <p>Advanced hardware solutions engineered for high performance, reliability, and precision control.</p>
+            </div>
+
+            <div style="display: grid; gap: 40px; margin-top: 40px;">
+
+                <!-- Project 1 (User Provided) -->
+                <div class="lifecycle-card">
+                    <span class="product-tag">Wireless & IoT</span>
+                    <h2>TI CC2652P7 Bluetooth-Enabled MCU Stamp Board</h2>
+                    <p style="color: var(--text-light); margin-bottom: 15px;">Compact form-factor hardware module designed for seamless multi-protocol wireless integration into broader carrier systems.</p>
+                    <div class="lifecycle-details">
+                        <p><strong>Core Architecture:</strong> Built around the Texas Instruments CC2652P7 high-performance multi-protocol wireless microcontroller supporting Bluetooth Low Energy (BLE), Thread, and Zigbee.</p>
+                        <p style="margin-top: 8px;"><strong>Engineering Highlights:</strong> Ultra-low power consumption profile, optimized RF trace antenna layout for maximum signal range, and castellated stamp-hole pad configuration for robust surface-mount integration.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 (User Provided) -->
+                <div class="lifecycle-card">
+                    <span class="product-tag">Data Acquisition & Power</span>
+                    <h2>Multi-Channel Pressure Data Acquisition Device</h2>
+                    <p style="color: var(--text-light); margin-bottom: 15px;">Handheld or field-deployed data logging unit engineered for high-precision pressure telemetry and flexible bus topology.</p>
+                    <div class="lifecycle-details">
+                        <p><strong>Core Architecture:</strong> Integrated single-cell Li-ion battery charger with hardware-level fuel gauging, USB-C compliance for power delivery and data sync, and high-contrast 7-segment LED status indicators.</p>
+                        <p style="margin-top: 8px;"><strong>Engineering Highlights:</strong> Features wireless BLE telemetry alongside a physical-layer <strong>daisy-chain topology</strong>, allowing multiple slave acquisition modules to link reliably with a master controller unit.</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 (User Provided) -->
+                <div class="lifecycle-card">
+                    <span class="product-tag">Medical & Embedded Control</span>
+                    <h2>STM32H750X Custom Therapy Device Controller</h2>
+                    <p style="color: var(--text-light); margin-bottom: 15px;">High-speed, real-time embedded control system designed for specialized pneumatic therapy equipment.</p>
+                    <div class="lifecycle-details">
+                        <p><strong>Core Architecture:</strong> Powered by the high-performance STM32H750X ARM Cortex-M7 MCU, augmented with external SDRAM memory expansion and a high-resolution RGB LCD graphic user interface.</p>
+                        <p style="margin-top: 8px;"><strong>Engineering Highlights:</strong> Real-time pressure sensor data reading, closed-loop proportional solenoid valve control, and custom high-efficiency pump driver circuitry for precise pneumatic pressure regulation.</p>
+                    </div>
+                </div>
+
+                <!-- Project 4 (AI Added Conceptual Project) -->
+                <div class="lifecycle-card">
+                    <span class="product-tag">Industrial Automation</span>
+                    <h2>Ruggedized Industrial IoT Gateway & Enclosure</h2>
+                    <p style="color: var(--text-light); margin-bottom: 15px;">Harsh-environment monitoring hub integrating multi-sensor acquisition with cloud-connected cellular and LoRaWAN backhaul.</p>
+                    <div class="lifecycle-details">
+                        <p><strong>Core Architecture:</strong> Wide-input DC-DC power regulation (9V-36V protection), transient voltage suppression (TVS), and a custom-molded 3D CAD polymer enclosure designed for DIN-rail mounting.</p>
+                        <p style="margin-top: 8px;"><strong>Engineering Highlights:</strong> Thermal management simulations to prevent hot spots inside sealed enclosures, IP65 ingress protection validation, and robust EMI/EMC filtering for heavy industrial floors.</p>
+                    </div>
+                </div>
+
+                <!-- Project 5 (AI Added Conceptual Project) -->
+                <div class="lifecycle-card">
+                    <span class="product-tag">Consumer Hardware</span>
+                    <h2>Compact Wearable Health Monitor Prototype</h2>
+                    <p style="color: var(--text-light); margin-bottom: 15px;">Miniaturized biometrics tracker balancing strict space constraints with ultra-low power longevity.</p>
+                    <div class="lifecycle-details">
+                        <p><strong>Core Architecture:</strong> Rigid-flex multi-layer PCB design combining optical sensor front-ends with an ultra-low power ARM Cortex-M4 core and internal coin-cell battery management.</p>
+                        <p style="margin-top: 8px;"><strong>Engineering Highlights:</strong> Ergonomic industrial casing design optimized for skin-contact comfort, drop-resistance modeling, and ultra-compact surface-mount component packing density.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section-block" style="background-color: var(--primary-color); color: var(--white); text-align: center; padding: 80px 0;">
+        <div class="container" style="max-width: 700px;">
+            <h2 style="font-size: 2.2rem; margin-bottom: 15px;">Have a Custom Project in Mind?</h2>
+            <p style="color: #cbd5e1; margin-bottom: 30px; font-size: 1.05rem;">Let's discuss how our engineering team can bring your electronic concept through prototyping to bulk production.</p>
+            <a href="contact.html" class="btn-primary" style="background-color: var(--accent-color); color: var(--primary-color); font-weight: 700; padding: 15px 35px;">Start a Confidential Discussion</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>LOOMTRIC PVT LTD</h3>
+                <p>Shaping tomorrow's smart hardware through precision engineering.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="products/index.html">Products Store</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 LOOMTRIC PVT LTD. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
